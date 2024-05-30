@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgba(244, 248, 250, 1);
+}
+.container{
+  padding-left: 99px;
+  padding-right: 99px;
+}
+button{
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+nav{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+}
+.nav-logo img{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.nav-items{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  gap: 30px;
+}
+.nav-link{
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+text-align: left;
+}
+.nav-button .nav-link{
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 6px;
+}
+.login-section{
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  background-color: #fff;
+  padding: 40px;
+}
+.login-logo  {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.title{
+  font-family: Segoe UI;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 38.57px;
+  text-align: left;
+  text-align: center;
+  margin-bottom: 16px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.login-quest{
+  display: flex;
+  justify-content: center;
+}
+.login-quest p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(68, 65, 80, 1);
+}
+.login-quest button{
+  font-family: Segoe UI;
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+margin-left: 14px;
+margin-bottom: 56px;
+}
+.login-quest button a{
+  text-decoration: underline;
+}
+label{
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+input{
+  padding-top:10px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  margin-bottom: 24px;
+}
+input:focus{
+  outline: none;
+}
+input::placeholder{
+  font-family: Segoe UI;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+
+}
+.login-row{
+  display: flex;
+  justify-content: space-between;
+}
+input[type="date"],input[type='skype'],input[type='promo']{
+  width: 100%;
+}
+.gender{
+  width: 190px;
+  display: inline-block;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+.gender+.gender{
+  margin-left: 20px;
+}
+button[type="submit"]{
+ width: 100%;
+ background-color:#01BAB3;
+}
+button[type="submit"] a{
+  color: #fff;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

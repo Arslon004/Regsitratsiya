@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+    <nav>
+      <div class="container nav-container">
+      <div class="nav-logo">
+        <img src="./images/logo.svg" alt="logo svg">
+      </div>
+      <div class="nav-left">
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About </a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+          <button class="nav-button"><a href="register.html" class="nav-link">Log in</a></button>
+          <button class="nav-button"><a href="#" class="nav-link">Open an account</a></button>
+          <button class="nav-button"><a href="#" class="nav-link">EN</a></button>
+        </ul>
+      </div>
+    </div>
+    </nav>
+   </header>
+   <main>
+    <section>
+      <div class="login-section">
+         <div class="login-header">
+          <div class="login-logo">
+            <img src="images/logo.svg" alt="img">
+           </div>
+            <h2 class="title">Welcome to ByTrend!</h2>
+           <div class="login-quest">
+            <p>Already have an account?</p>
+            <button><a href="#">Log in</a></button>
+           </div>
+         </div>
+         <div class="login-questions">
+          <div class="login-row">
+            <div class="login-col">
+              <label for="name">First name</label>
+            <input id="name" type="text" placeholder="Alexandr">
+            </div>
+            <div class="login-col">
+              <label for="lastname">Last name</label>
+            <input id="lastname" type="text" placeholder="Alexandr">
+            </div>
+          </div>
+          <div class="login-col">
+            <label for="date">Birth date*</label>
+            <input type="date" id="date" placeholder="06.12.2992">
+          </div>
+          <h2>Gender</h2>
+          <div class="login-row">
+              <div class="login-col gender">
+                <label for="male">Male</label>
+                <input name="gender" type="radio" id="male">
+              </div>
+              <div class="login-col gender">
+                <label for="female">Female</label>
+                <input name="gender" type="radio" id="female">
+              </div>
+          </div>
+          <div class="login-col">
+            <label for="skype">Skype</label>
+            <input type="skype" id="skype" placeholder="Your login skype">
+          </div>
+          <div class="login-col">
+            <label for="promo">Promo</label>
+            <input type="promo" id="promo" placeholder="Your promo">
+          </div>
+          <button type="submit"><a href="register.html">Continue</a></button>
+         </div>
+      </div>
+    </section>
+   </main>
+   <footer></footer>
+</body>
+</html>
